@@ -129,7 +129,7 @@
                   </div>
                   <div class="left">
                      <span>Màu sắc:</span>
-                     <span>{{ $productDetails['product_color'] }}</span>
+                     <span>{{ $productDetails['product_type'] }}</span>
                   </div>
                   <div class="availability">
                      <span>Khả dụng:</span>
@@ -563,7 +563,7 @@
                                     <a href="shop-v1-root-category.html">{{ $product['product_code'] }}</a>
                                  </li>
                                  <li class="has-separator">
-                                    <a href="listing.html">{{ $product['product_color'] }}</a>
+                                    <a href="listing.html">{{ $product['product_type'] }}</a>
                                  </li>
                                  <li>
                                     <a href="listing.html">{{ $product['brand']['name'] }}</a>
@@ -640,7 +640,7 @@
                                     <a href="shop-v1-root-category.html">{{ $product['product_code'] }}</a>
                                  </li>
                                  <li class="has-separator">
-                                    <a href="listing.html">{{ $product['product_color'] }}</a>
+                                    <a href="listing.html">{{ $product['product_type'] }}</a>
                                  </li>
                                  <li>
                                     <a href="listing.html">{{ $product['brand']['name'] }}</a>

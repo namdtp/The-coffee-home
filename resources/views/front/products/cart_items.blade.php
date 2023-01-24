@@ -28,7 +28,7 @@ use App\Models\Product;
                      <h6>
                         {{ $item['product']['product_name'] }} ({{ $item['product']['product_code'] }}) <br />
                         Size: {{ $item['size'] }} |
-                        Color: {{ $item['product']['product_color'] }}
+                        Color: {{ $item['product']['product_type'] }}
                      </h6>
                   </a>
                </div>

@@ -73,7 +73,7 @@ class ProductsController extends Controller
 
                 //Checking for color of product
                 if(isset($data['color']) && !empty($data['color'])){
-                    $productIds = Product::select('id')->whereIn('product_color',$data['color'])->pluck('id')->toArray();
+                    $productIds = Product::select('id')->whereIn('product_type',$data['color'])->pluck('id')->toArray();
                     $categoryProducts->whereIn('products.id',$productIds);
                 }
 
@@ -523,12 +523,12 @@ class ProductsController extends Controller
                 $cartItem->order_id = $order_id;
                 $cartItem->user_id = Auth::user()->id;
 
-                $getProductDetails = Product::select('product_code', 'product_name', 'product_color')
+                $getProductDetails = Product::select('product_code', 'product_name', 'product_type')
                 ->where('id',$item['product_id'])->first()->toArray();
                 $cartItem->product_id = $item['product_id'];
                 $cartItem->product_code = $getProductDetails['product_code'];
                 $cartItem->product_name = $getProductDetails['product_name'];
-                $cartItem->product_color = $getProductDetails['product_color'];
+                $cartItem->product_type = $getProductDetails['product_type'];
                 $cartItem->product_size = $item['size'];
                 $getDiscountAttributePrice = Product::getDiscountAttributePrice($item['product_id'], $item['size']);
                 $cartItem->product_price = $getDiscountAttributePrice['final_price'];

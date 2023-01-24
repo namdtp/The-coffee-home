@@ -36,16 +36,19 @@
 <section class="section-maker">
    <div class="container">
       <div class="sec-maker-header text-center">
-         <h3 class="sec-maker-h3">Sản Phẩm</h3>
+         <h3 class="sec-maker-h3">BỘ SƯU TẬP HÀNG ĐẦU</h3>
          <ul class="nav tab-nav-style-1-a justify-content-center">
             <li class="nav-item">
-               <a class="nav-link" data-toggle="tab" href="">Bán Chạy</a>
+               <a class="nav-link active" data-toggle="tab" href="#men-latest-products">New Arrivals</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" data-toggle="tab" href="">Sản Phẩm Giảm Giá</a>
+               <a class="nav-link" data-toggle="tab" href="#men-best-selling-products">Bán Chạy</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" data-toggle="tab" href="">Sản Phẩm Nổi Bật</a>
+               <a class="nav-link" data-toggle="tab" href="#discounted-products">Sản Phẩm Giảm Giá</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" data-toggle="tab" href="#men-featured-products">Sản Phẩm Nổi Bật</a>
             </li>
          </ul>
       </div>
@@ -66,7 +69,13 @@
                                  <img class="img-fluid" src="{{ asset('front/images/product_images/small/no-image.png') }}" alt="Product">
                                  @endif
                               </a>
-                              
+                              <div class="item-action-behaviors">
+                                 <a class="item-quick-look" data-toggle="modal" href="javascript:void(0)">Quick Look
+                                 </a>
+                                 <a class="item-mail" href="javascript:void(0)">Mail</a>
+                                 <a class="item-addwishlist" href="javascript:void(0)">Add to Wishlist</a>
+                                 <a class="item-addCart" href="javascript:void(0)">Add to Cart</a>
+                              </div>
                            </div>
                            <div class="item-content">
                               <div class="what-product-is">
@@ -326,4 +335,5 @@
 <!-- Banner-Layer /- -->
 @endif
 
+<!-- Site-Priorities /- -->
 @endsection

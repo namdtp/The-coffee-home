@@ -52,7 +52,7 @@ use App\Models\DeliveryAddress;
                                 ?>                                  
                                     <tr>
                                         <td>
-                                            <h6 class="order-h6">{{ $item['product']['product_name'] }} | {{ $item['size'] }} | {{ $item['product']['product_color'] }}</h6>
+                                            <h6 class="order-h6">{{ $item['product']['product_name'] }} | {{ $item['size'] }} | {{ $item['product']['product_type'] }}</h6>
                                             <span class="order-span-quantity">x {{ $item['quantity'] }}</span>
                                         </td>
                                         <td>

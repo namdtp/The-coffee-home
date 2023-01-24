@@ -20,7 +20,7 @@ return new class extends Migration
             $table->integer('product_id');
             $table->string('product_code');
             $table->string('product_name');
-            $table->string('product_color');
+            $table->string('product_type');
             $table->string('product_size');
             $table->float('product_price');
             $table->integer('product_qty');
