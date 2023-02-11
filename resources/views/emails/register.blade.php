@@ -7,7 +7,7 @@
     <body>
         <table>
             <tr><td>Xin chào {{ $name }}!</td></tr>
-            <tr><td>Chào mừng bạn đến với Azalea Clothing. Tài khoản của bạn đã được tạo thành công với thông tin bên dưới:</td></tr>
+            <tr><td>Chào mừng bạn đến với The Coffee Home. Tài khoản của bạn đã được tạo thành công với thông tin bên dưới:</td></tr>
             <tr><td>&nbsp;</td></tr>
             <tr><td>Tên: {{ $name }}</td></tr>
             <tr><td>&nbsp;</td></tr>
@@ -17,7 +17,7 @@
             <tr><td>&nbsp;</td></tr>
             <tr><td>&nbsp;</td></tr>
             <tr><td>Cảm ơn & Trân Trọng,</td></tr>
-            <tr><td>TheCoffeeHome Clothing.</td></tr>
+            <tr><td>TheCoffeeHome  .</td></tr>
         </table>
     </body>
 </html>

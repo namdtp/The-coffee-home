@@ -28,7 +28,7 @@
             <div class="auth-form-light text-left py-5 px-4 px-sm-5">
               <div class="brand-logo" style="display:flex;justify-content:center;">
                 <!-- <img src="{{ url('admin/images/logo.svg') }}" alt="logo"> -->
-                <img src="{{ asset('front/images/main-logo/logoAzalea.png') }}" alt="Azalea" class="app-brand-logo">
+                <img src="{{ asset('front/images/main-logo/logoTCH.png') }}" alt="Azalea" class="app-brand-logo">
               </div>
               <h4>Hello! let's get started</h4>
               <h6 class="font-weight-light">Sign in to continue.</h6>
@@ -60,7 +60,9 @@
                 </div>
                 <div class="mt-3">
                   <button type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn">SIGN IN</button>
+                  <a style="float:right; text-decoration:none; color:brown; margin: 10px;" href="/vendor/login-register">--> For new Staff ? </a>  
                 </div>
+                
                 <div class="my-2 d-flex justify-content-between align-items-center">
                 </div>
               </form>

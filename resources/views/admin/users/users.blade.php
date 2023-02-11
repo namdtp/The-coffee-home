@@ -11,7 +11,7 @@
                      Add class <code>.table-bordered</code>
                   </p> -->
                   <a style="max-width: 150px; float: right; display: inline-block" href="{{ url('admin/add-edit-user') }}" 
-                  class="btn btn-block btn-primary">Add User</a>
+                  class="btn btn-block btn-primary">Thêm người dùng</a>
                   @if(Session::has('success_message'))
                   <div class="alert alert-success alert-dismissible fade show" role="alert">
                      <strong>Success: </strong> {{ Session::get('success_message') }}

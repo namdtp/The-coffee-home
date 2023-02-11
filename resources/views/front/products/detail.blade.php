@@ -234,9 +234,6 @@
                <div class="detail-nav-wrapper u-s-m-b-30">
                   <ul class="nav single-product-nav justify-content-center">
                      <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#video">Video Sản Phẩm</a>
-                     </li>
-                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#detail">Chi Tiết Sản Phẩm</a>
                      </li>
                      <li class="nav-item">
@@ -246,7 +243,7 @@
                </div>
                <div class="tab-content">
                   <!-- Details-Tab -->
-                  <div class="tab-pane fade active show" id="video">
+                  {{-- <div class="tab-pane fade active show" id="video">
                      <div class="description-whole-container">
                         @if($productDetails['product_video'])
                         <video controls>
@@ -256,7 +253,7 @@
                         Video Sản Phẩm Không Tồn Tại
                         @endif
                      </div>
-                  </div>
+                  </div> --}}
                   <!-- Description-Tab /- -->
                   <!-- Specifications-Tab -->
                   <div class="tab-pane fade" id="detail">

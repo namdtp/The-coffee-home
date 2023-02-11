@@ -77,7 +77,7 @@
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Business Information</h4>                                                     
-                    <div class="form-group">    
+                    {{-- <div class="form-group">    
                       <label for="vendor_name">Shop Name</label>
                       <input type="text" class="form-control" 
                       @if(isset($vendorDetails['vendor_business']['shop_name']))  value="{{ $vendorDetails['vendor_business']['shop_name'] }}" @endif readonly="">
@@ -147,7 +147,7 @@
                     <div class="form-group">    
                       <label for="vendor_image">Address Proof Image</label>
                       <br /><img style="width: 200px;" src="{{ url('admin/images/proofs/'.$vendorDetails['vendor_business']['address_proof_image']) }}"/>                  
-                    </div>                          
+                    </div>                           --}}
                     @endif                   
                 </div>
               </div>

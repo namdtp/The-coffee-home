@@ -22,7 +22,7 @@
       <!-- Mid-Footer -->
       <div class="mid-footer-wrapper u-s-p-b-80">
          <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="col-lg-4 col-md-4 col-sm-12">
                <div class="footer-list">
                   <h6>CÔNG TY</h6>
                   <ul>
@@ -36,7 +36,7 @@
                   </ul>
                </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
+            {{-- <div class="col-lg-3 col-md-3 col-sm-12">
                <div class="footer-list">
                   <h6>MENU</h6>
                   <ul>
@@ -44,8 +44,8 @@
                      
                   </ul>
                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
+            </div> --}}
+            <div class="col-lg-4 col-md-4 col-sm-12">
                <div class="footer-list">
                   <h6>TÀI KHOẢN</h6>
                   <ul>
@@ -61,25 +61,24 @@
                   </ul>
                </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="col-lg-4 col-md-4 col-sm-12">
                <div class="footer-list">
                   <h6>Liên hệ</h6>
                   <ul>
                      <li>
                         <i class="fas fa-location-arrow u-s-m-r-9"></i>
-                        <span>l</span>
+                        <span>Linh Trung Thủ Đức</span>
                      </li>
                      <li>
-                        <a href="tel:+84 918 496 855">
+                        <a href="tel:094 2074 779">
                         <i class="fas fa-phone u-s-m-r-9"></i>
-                        <span>+84 918 496 855</span>
+                        <span>094 2074 779</span>
                         </a>
                      </li>
                      <li>
-                        <a href="mailto:dotranphuongnam@gmail.com">
+                        <a href="mailto:chamsockhachhang@thecoffeehome.shop">
                         <i class="fas fa-envelope u-s-m-r-9"></i>
-                        <span>
-                        dotranphuongnam@gmail.com</span>
+                        <span>chamsockhachhang@thecoffeehome.shop</span>
                         </a>
                      </li>
                   </ul>

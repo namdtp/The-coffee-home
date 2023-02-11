@@ -6,8 +6,8 @@
          <div class="col-md-12 grid-margin">
             <div class="row">
                <div class="col-12 col-xl-8 mb-4 mb-xl-0">
-                  <h3 class="font-weight-bold">Welcome {{ Auth::guard('admin')->user()->name }}</h3>
-                  <h6 class="font-weight-normal mb-0">All systems are running smoothly!</h6>
+                  <h3 class="font-weight-bold">Xin chào {{ Auth::guard('admin')->user()->name }}</h3>
+                  <h6 class="font-weight-normal mb-0">Mọi thứ đều được vận hành suôn sẻ</h6>
                </div>
                <div class="col-12 col-xl-4">
                   <div class="justify-content-end d-flex">
@@ -51,18 +51,18 @@
                <div class="col-md-6 mb-4 stretch-card transparent">
                   <div class="card card-tale">
                      <div class="card-body">
-                        <p class="mb-4">Today’s Bookings</p>
-                        <p class="fs-30 mb-2">0</p>
-                        <p>0% (30 days)</p>
+                        <p class="mb-4">Tổng số đơn hàng</p>
+                        <p class="fs-30 mb-2"><?php echo $sumOrder ?></p>
+                        
                      </div>
                   </div>
                </div>
                <div class="col-md-6 mb-4 stretch-card transparent">
                   <div class="card card-dark-blue">
                      <div class="card-body">
-                        <p class="mb-4">Total Bookings</p>
-                        <p class="fs-30 mb-2">0</p>
-                        <p>0% (30 days)</p>
+                        <p class="mb-4">Tổng số doanh thu</p>
+                        <p class="fs-30 mb-2">{{ number_format($sumValue),0,'',',' }} VND</p>
+                        
                      </div>
                   </div>
                </div>
@@ -71,25 +71,23 @@
                <div class="col-md-6 mb-4 mb-lg-0 stretch-card transparent">
                   <div class="card card-light-blue">
                      <div class="card-body">
-                        <p class="mb-4">Number of Meetings</p>
-                        <p class="fs-30 mb-2">0</p>
-                        <p>0% (30 days)</p>
+                        <p class="mb-4">Tổng số khách hàng</p>
+                        <p class="fs-30 mb-2"><?php echo $orderUser ?></p>
                      </div>
                   </div>
                </div>
                <div class="col-md-6 stretch-card transparent">
-                  <div class="card card-light-danger">
+                  <div class="card card-light-green">
                      <div class="card-body">
-                        <p class="mb-4">Number of Clients</p>
-                        <p class="fs-30 mb-2">0</p>
-                        <p>0% (30 days)</p>
+                        <p class="mb-4">Tổng đơn đã hoàn thành</p>
+                        <p class="fs-30 mb-2"><?php echo $orderStatus ?></p>
                      </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <div class="row">
+      {{-- <div class="row">
          <div class="col-md-6 grid-margin stretch-card">
             <div class="card">
                <div class="card-body">
@@ -98,7 +96,7 @@
                   <div class="d-flex flex-wrap mb-5">
                      <div class="mr-5 mt-3">
                         <p class="text-muted">Order value</p>
-                        <h3 class="text-primary fs-30 font-weight-medium">12.3k</h3>
+                        <h3 class="text-primary fs-30 font-weight-medium">{{ number_format($sumValue),0,'',',' }} VND</h3>
                      </div>
                      <div class="mr-5 mt-3">
                         <p class="text-muted">Orders</p>
@@ -130,8 +128,8 @@
                </div>
             </div>
          </div>
-      </div>
-      <div class="row">
+      </div> --}}
+      {{-- <div class="row">
          <div class="col-md-12 grid-margin stretch-card">
             <div class="card position-relative">
                <div class="card-body">
@@ -334,8 +332,8 @@
                </div>
             </div>
          </div>
-      </div>
-      <div class="row">
+      </div> --}}
+      {{-- <div class="row">
          <div class="col-md-7 grid-margin stretch-card">
             <div class="card">
                <div class="card-body">
@@ -473,8 +471,8 @@
                </div>
             </div>
          </div>
-      </div>
-      <div class="row">
+      </div> --}}
+      {{-- <div class="row">
          <div class="col-md-4 stretch-card grid-margin">
             <div class="card">
                <div class="card-body">
@@ -667,8 +665,8 @@
                </div>
             </div>
          </div>
-      </div>
-      <div class="row">
+      </div> --}}
+      {{-- <div class="row">
          <div class="col-md-12 grid-margin stretch-card">
             <div class="card">
                <div class="card-body">
@@ -696,7 +694,7 @@
                </div>
             </div>
          </div>
-      </div>
+      </div> --}}
    </div>
    <!-- content-wrapper ends -->
    <!-- partial:partials/_footer.html -->

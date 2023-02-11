@@ -19,7 +19,7 @@
     <tr><td>&nbsp;<br /></td><tr>
     <tr><td>Cảm ơn & Trân Trọng,</td><tr>
     <tr><td>&nbsp;<br /></td><tr>
-    <tr><td>TheCoffeeHome Clothing</td><tr>
+    <tr><td>TheCoffeeHome  </td><tr>
 </body>
 
 </html>

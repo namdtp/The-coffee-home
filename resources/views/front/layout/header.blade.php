@@ -113,9 +113,9 @@ $totalCartItems = totalCartItems();
                 @endif
                @endforeach
                 
-                <li><a href="#blog-section" class="nav-link">Câu chuyện</a></li>
-                <li><a href="#contact-section" class="nav-link">Cửa hàng</a></li>
-                <li><a href="#contact-section" class="nav-link">Khuyến mãi</a></li>
+                <li><a href="javascript:;" class="nav-link">Câu chuyện</a></li>
+                <li><a href="javascript:;" class="nav-link">Cửa hàng</a></li>
+                <li><a href="javascript:;" class="nav-link">Khuyến mãi</a></li>
                 <li>
                 <li>
                   <div class="col-lg-1 col-md-3 col-sm-6">

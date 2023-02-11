@@ -159,7 +159,7 @@
                       <label>Vendor Username / Email</label>
                       <input class="form-control" value="{{ Auth::guard('admin')->user()->email }}" readonly="">
                     </div>           
-                    <div class="form-group">    
+                    {{-- <div class="form-group">    
                       <label for="shop_name">Shop Name</label>
                       <input type="text" class="form-control" id="shop_name" placeholder="Enter Your Shop Name" name="shop_name"
                       @if(isset($vendorDetails['shop_name']))  value="{{ $vendorDetails['shop_name'] }}" @endif required="">
@@ -242,7 +242,7 @@
                         <a target="_blank" href="{{ url('admin/images/proofs/'.$vendorDetails['address_proof_image']) }}">View Image</a>
                         <input type="hidden" name="current_address_proof" value="{{ $vendorDetails['address_proof_image'] }}">
                       @endif
-                    </div>
+                    </div> --}}
                     <button type="submit" class="btn btn-primary mr-2">Submit</button>
                     <button type="reset" class="btn btn-light">Cancel</button>
                   </form>

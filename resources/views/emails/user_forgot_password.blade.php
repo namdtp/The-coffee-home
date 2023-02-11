@@ -14,7 +14,7 @@
             <tr><td>Mật Khẩu: {{ $password }}</td></tr>
             <tr><td>&nbsp;</td></tr>
             <tr><td>Cảm ơn & Trân Trọng,</td></tr>
-            <tr><td>Azalea Clothing.</td></tr>
+            <tr><td>The Coffee Home.</td></tr>
         </table>
     </body>
 </html>

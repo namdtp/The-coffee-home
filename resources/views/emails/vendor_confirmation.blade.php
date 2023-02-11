@@ -12,7 +12,7 @@
     <tr><td>&nbsp;<br /></td><tr>
     <tr><td>Cảm ơn & Trân Trọng,</td><tr>
     <tr><td>&nbsp;<br /></td><tr>
-    <tr><td>Azalea Clothing</td><tr>
+    <tr><td>The Coffee Home</td><tr>
 </body>
 
 </html>

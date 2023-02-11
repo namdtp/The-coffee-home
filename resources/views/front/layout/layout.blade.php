@@ -10,9 +10,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Azalea Clothing</title>
+    <title>The Coffee Home</title>
     <!-- Standard Favicon -->
-    <link href="{{ asset('front/images/main-logo/azalea.png') }}" rel="shortcut icon">
+    <link href="{{ asset('front/images/main-logo/logoTCH.png') }}" rel="shortcut icon">
     <!-- Base Google Font for Web-app -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <!-- Google Fonts for Banners only -->

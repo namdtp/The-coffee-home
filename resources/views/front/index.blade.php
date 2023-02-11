@@ -33,19 +33,16 @@
 <!-- Banner-Layer /- -->
 @endif
 <!-- Top Collection -->
-<section class="section-maker">
+<section class="section-maker" style="@media()">
    <div class="container">
       <div class="sec-maker-header text-center">
          <h3 class="sec-maker-h3">BỘ SƯU TẬP HÀNG ĐẦU</h3>
          <ul class="nav tab-nav-style-1-a justify-content-center">
             <li class="nav-item">
-               <a class="nav-link active" data-toggle="tab" href="#men-latest-products">New Arrivals</a>
+               <a class="nav-link active" data-toggle="tab" href="#men-latest-products">Sản phẩm mới</a>
             </li>
             <li class="nav-item">
                <a class="nav-link" data-toggle="tab" href="#men-best-selling-products">Bán Chạy</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" data-toggle="tab" href="#discounted-products">Sản Phẩm Giảm Giá</a>
             </li>
             <li class="nav-item">
                <a class="nav-link" data-toggle="tab" href="#men-featured-products">Sản Phẩm Nổi Bật</a>
@@ -79,11 +76,7 @@
                            </div>
                            <div class="item-content">
                               <div class="what-product-is">
-                                 <ul class="bread-crumb">
-                                    <li>
-                                       <a href="{{ url('product/'.$product['id']) }}">{{ $product['product_code'] }}</a>
-                                    </li>
-                                 </ul>
+                                
                                  <h6 class="item-title">
                                     <a href="{{ url('product/'.$product['id']) }}">{{ $product['product_name'] }}</a>
                                  </h6>
@@ -145,9 +138,7 @@
                            <div class="item-content">
                               <div class="what-product-is">
                                  <ul class="bread-crumb">
-                                    <li>
-                                       <a href="{{ url('product/'.$product['id']) }}">{{ $product['product_code'] }}</a>
-                                    </li>
+                        
                                  </ul>
                                  <h6 class="item-title">
                                     <a href="{{ url('product/'.$product['id']) }}">{{ $product['product_name'] }}</a>
@@ -209,11 +200,7 @@
                            </div>
                            <div class="item-content">
                               <div class="what-product-is">
-                                 <ul class="bread-crumb">
-                                    <li>
-                                       <a href="{{ url('product/'.$product['id']) }}">{{ $product['product_code'] }}</a>
-                                    </li>
-                                 </ul>
+                                 
                                  <h6 class="item-title">
                                     <a href="{{ url('product/'.$product['id']) }}">{{ $product['product_name'] }}</a>
                                  </h6>
@@ -274,11 +261,7 @@
                            </div>
                            <div class="item-content">
                               <div class="what-product-is">
-                                 <ul class="bread-crumb">
-                                    <li>
-                                       <a href="{{ url('product/'.$product['id']) }}">{{ $product['product_code'] }}</a>
-                                    </li>
-                                 </ul>
+                                
                                  <h6 class="item-title">
                                     <a href="{{ url('product/'.$product['id']) }}">{{ $product['product_name'] }}</a>
                                  </h6>

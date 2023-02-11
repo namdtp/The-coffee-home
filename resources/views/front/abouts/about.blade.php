@@ -25,9 +25,9 @@
                 <div class="col-md-12">
                     <div class="about-me-info u-s-m-b-30">
                         <h1>Chào mừng bạn đến với
-                            <span>Azalea</span>
+                            <span>The Coffee Home</span>
                         </h1>
-                        <p class="card-text">Azalea là một công ty Việt Nam đảm bảo cung cấp quần áo phổ biến cho mọi đối tượng.</p>
+                        <p class="card-text">The Coffee Home là một công ty Việt Nam đảm bảo cung cấp Đồ uống phổ biến cho mọi đối tượng.</p>
                         <div class="card">
                         <div class="card-body">
                             <p class="card-text">Kể từ Ngày 10 Tháng 12 Năm 2022<br/>
@@ -39,7 +39,7 @@
                             <h5 class="card-title">ĐỊA ĐIỂM</h5>
                             <p class="card-text">Địa Chỉ Đăng Ký : 134/8a Đường Trần Bá Giao, Phường 5, Quận Gò Vấp, TP.HCM, Việt Nam</p>
                             <h5 class="card-title">NGÀNH KINH DOANH</h5>
-                            <p class="card-text">Nhà bán lẻ quần áo phổ biến thương hiệu Azalea tại Việt Nam</p>
+                            <p class="card-text">Nhà bán lẻ Đồ uống phổ biến thương hiệu The Coffee Home tại Việt Nam</p>
                             <h5 class="card-title">SỐ LƯỢNG CỬA HÀNG</h5>
                             <p class="card-text">1 cửa hàng (Tính từ 08 2022)</p>
                         </div>

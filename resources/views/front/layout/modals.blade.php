@@ -108,7 +108,7 @@
                               <a href="{{ url('/') }}">Trang chủ</a>
                            </li>
                            <li class="has-separator">
-                              <a href="shop-v1-root-category.html">Men Clothing </a>
+                              <a href="shop-v1-root-category.html">Men   </a>
                            </li>
                            <li class="has-separator">
                               <a href="listing.html">Tops</a>
